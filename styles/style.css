@@ -250,6 +250,12 @@ p {
 
   }
 
+
+    @media (max-width: 575px) {
+      .title {
+        margin-bottom: 100px;
+    }
+
     @media (orientation: portrait) {
     .title {
       margin-bottom: 100px;
