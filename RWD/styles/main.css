@@ -1,0 +1,203 @@
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Sen';
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.titlebox{
+    width: 100%;
+    height: 50vh;
+    padding-top: 30vh;
+    background-color: #ffffff;
+    margin-bottom: 15vh;    
+}
+
+.title{
+    font-size: 150px;
+    text-align: center;
+    color: #494e74;
+}
+
+.textcontainer{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 25%;
+    padding-top: 3%;
+    background-color: #e9e9e9;
+}
+
+a{
+    text-decoration: none;
+
+h1{
+
+}
+
+.footercontainer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.footercontainer > div {
+    width: 33%;
+}
+
+.footerline{
+    border-right: 2px whitesmoke solid;
+    margin-right: 2%;
+}
+
+
+
+
+h1{
+    font-size: 7rem;
+    color: #494e74;
+}
+
+
+
+
+@media (max-width: 575px){      
+    .title{
+        font-size: 3rem;
+    }
+
+    .subtitle{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 1.1rem;
+    }
+    
+    h1{
+        font-size: 2.2rem;
+    }
+}
+
+
+@media (min-width: 576px){     
+        font-size: 4rem;
+    }
+
+    .subtitle{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1.4rem;
+    }
+    h1{
+        font-size: 3.2rem;
+    }
+}
+
+@media (min-width: 768px){  
+    .title{
+        font-size: 6rem;
+    }
+
+    .subtitle{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 4.5rem;
+    }
+}
+
+@media (min-width: 992px){  
+    .title{
+        font-size: 8rem;
+    }
+
+    .subtitle{
+        font-size: 4rem;
+    }
+
+    p{
+        font-size: 1.6rem;
+    }
+
+    h1{
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 1200px){ 
+    .title{
+        font-size: 10rem;
+    }
+
+    .subtitle{
+        font-size: 5rem;
+    }
+
+
+    p{
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size: 7rem;
+    }
+}
+
+
+
+
+
+@media (orientation: portrait){     
+    .titlebox{
+        padding-top: 8vh;
+        height: 6vh;
+    }
+
+    .title{
+        color: teal;
+        font-size: 8vh;
+    }
+
+    .subtitle{
+        font-size: 5vh;
+    }
+
+}
+
+
+@media (orientation: landscape) and (max-width: 991px){     
+    .titlebox{
+        padding-top: 35vh;
+        padding-bottom: 10vh;
+        height: 35vh;
+    }
+
+    .title{
+        color: teal;
+    }
+
+}

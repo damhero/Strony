@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="PL">
+    <head>
+        <meta charset="utf-8">
+        <title>Kurs poprawnego mycia rąk</title>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Slabo+27px&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,300&family=Amatic+SC:wght@700&family=Gloria+Hallelujah&family=Yantramanav&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,300&family=Amatic+SC:wght@700&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,300&family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <a href="#yes"> 
+                <div class="titlebox"> 
+                     Hover me
+                    <h1 class="nagl">Jak poprawnie myć ręce?</h1>
+                </div>
+            </a>
+            <div class="content" id="yes">
+                <p>Mycie rąk jest bardzo ważnym elementem życia codziennego. Pomaga wyeliminowaćryzyko zachorowania, oraz przenoszenia bakterii czy wirusów. Dlatego właśnie tak ważne jest abyśmy potrafili tą czynnośćpoprawnie wykonywać.</p>
+            </div>
+            <div class="kurs">
+                <h1>Kurs poprawnego mycia rąk</h1>
+            </div>
+             <div class="hard">
+                <p>Z pomocą w tych trudnych czasach przychodzi firma "Washyourhands", która przygotowała krótkie szkolenie o tym jak sprawnie myć ręce.</p>
+            </div>
+            <div class="dane">
+                Kurs odbędzie się 17 maja, dokładniejsze informacje zostaną wysłane na adres email uczestników. Każdy uczestnik zdobędzie informacje takie jak: Kiedy myć ręce, Czym myć ręce i jak robić to skutecznie.
+            </div>
+            <div class="formularz">
+                <h1 id="formhead">Formularz zgłoszeniowy </h1>
+                <form action="">
+                    <label for="fname">Imię</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Twoje Imię...">
+
+                    <label for="lname">Nazwisko</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Twoje Nazwisko...">
+
+                    <label for="email">Adres email</label>
+                    <input type="text" id="email" name="emailadress" placeholder="Twój Adres Email...">
+
+                    <label for="kod">Kod pocztowy</label>
+                    <input type="text" id="kod" name="postadress" placeholder="Twój Kod Pocztowy...">
+
+                    <label id="gen" for="gender"><strong>Płeć</strong></label><br>
+
+                     <label for="female">Kobieta</label>
+                    <input type="radio" id="female" name="gender">
+
+                    <label for="male">Mężczyzna</label>
+                    <input type="radio" id="male" name="gender"><br>
+
+                    <label for="city">Miasto</label>
+                    <select name="city" id="city">
+                        <option value="placeholder" disabled selected>Wybierz Miasto...</option>
+                        <option value="warszawa">Warszawa</option>
+                        <option value="kraków">Kraków</option>
+                        <option value="poznań">Poznań</option>
+                        <option value="wrocław">Wrocław</option>
+                    </select>
+
+                    <label for="notes">Masz pytania?</label>
+                    <input type="textarea" id="notes" name="notes" placeholder="Tutaj wpisz ewentualne pytania, wątpliwości...">
+
+                    <input type="submit" value="Prześlij">
+                    <input type="reset" value="Usuń Wszystko">
+                    
+                </form>
+            </div>
+        </div>
+        
+    </body>
+
+</html>
